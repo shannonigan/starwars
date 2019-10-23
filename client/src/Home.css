@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 10em;
+  background-color: black;
+  font: 500px;
+}
+
+.headtext {
+  display: flex;
+  color: gold;
+  font-size: 4em;
+  font-family: 'Squada One', cursive;
+  letter-spacing: 8px;
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(218,165,32, .8);
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  margin-top: 10em;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  width: 10em;
+  height: 5em;
+}
+
+.text {
+  color: gold;
+}
